@@ -1,0 +1,55 @@
+body, html {
+height: 100%;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+#main {
+height: 80%;
+display: -webkit-flex;
+display: flex;
+flex-flow: row;
+}
+
+#main aside {
+background: #CCF;
+flex-grow: 1;
+}
+
+#main2 {
+min-width: 66%;
+}
+
+#main2 article {
+background: #CFC;
+min-height: 87.5%;
+}
+
+#main2 footer {
+background: blue;
+min-height: 12.5%;
+}
+
+nav {
+background: #CCC;
+display: block;
+min-height: 10%;
+}
+
+#main aside {
+background: #CCF;
+flex: 1 6 80%;
+order: 1;
+}
+
+header {
+display: block;
+min-height: 10%;
+background: #FC6;
+}
+
+
+
+/* canvia la distribució de la plana posant el nav davall del header, i el aside a l'esquerra de l'article i el footer, el footer el mantenim a baix :) */
+
